@@ -1,0 +1,75 @@
+{
+  "coherence": {
+    "A": {
+      "n": 10,
+      "mean_of_2": 0.0,
+      "counts": {
+        "0": 10
+      }
+    },
+    "B": {
+      "n": 10,
+      "mean_of_2": 2.0,
+      "counts": {
+        "2": 10
+      }
+    },
+    "C": {
+      "n": 10,
+      "mean_of_2": 2.0,
+      "counts": {
+        "2": 10
+      }
+    }
+  },
+  "metadata": {
+    "A": {
+      "records_full_and_correct": 18,
+      "records_checked": 18,
+      "filter_compliant": 0,
+      "filter_questions": 2,
+      "errors": []
+    },
+    "B": {
+      "records_full_and_correct": 18,
+      "records_checked": 18,
+      "filter_compliant": 0,
+      "filter_questions": 2,
+      "errors": []
+    },
+    "C": {
+      "records_full_and_correct": 18,
+      "records_checked": 18,
+      "filter_compliant": 2,
+      "filter_questions": 2,
+      "errors": []
+    }
+  },
+  "grounding": {
+    "A": {
+      "n": 6,
+      "count_0": 1,
+      "count_1": 1,
+      "count_2": 4,
+      "mean_of_2": 1.5,
+      "evidence_hit@3_proxy": "4/6"
+    },
+    "B": {
+      "n": 6,
+      "count_0": 2,
+      "count_1": 0,
+      "count_2": 4,
+      "mean_of_2": 1.33,
+      "evidence_hit@3_proxy": "4/6"
+    },
+    "C": {
+      "n": 6,
+      "count_0": 0,
+      "count_1": 0,
+      "count_2": 6,
+      "mean_of_2": 2.0,
+      "evidence_hit@3_proxy": "6/6"
+    }
+  },
+  "labeler": "Tác giả (tự chấm) - có nguy cơ thiên lệch, xem báo cáo"
+}

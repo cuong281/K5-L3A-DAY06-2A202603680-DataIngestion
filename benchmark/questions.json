@@ -1,0 +1,185 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "truc_tiep", "filter": null,
+    "question": "Đầu tư toàn cầu vào công nghệ chuyển đổi số được dự báo đạt bao nhiêu vào năm 2023?",
+    "expected_answer": "2,3 nghìn tỷ USD",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 2,
+    "evidence_quote": "các khoản đầu tư vào công nghệ chuyển đổi số toàn cầu được dự báo sẽ đạt 2,3 nghìn tỷ USD vào năm 2023",
+    "alternatives": []
+  },
+  {
+    "id": "q02", "split": "dev", "type": "dien_dat_lai", "filter": null,
+    "question": "Thuật ngữ nào mô tả việc chuyển tài liệu giấy sang định dạng số?",
+    "expected_answer": "Số hóa (digitization)",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 3,
+    "evidence_quote": "Số hóa (digitization) là một thuật ngữ dùng để mô tả việc chuyển đổi các tài liệu dạng vật lý (giấy) sang định dạng số.",
+    "alternatives": []
+  },
+  {
+    "id": "q03", "split": "dev", "type": "truc_tiep", "filter": null,
+    "question": "Bản chất của chuyển đổi số là gì?",
+    "expected_answer": "Sáng tạo",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 4,
+    "evidence_quote": "Bản chất của chuyển đổi số là sáng tạo.",
+    "alternatives": []
+  },
+  {
+    "id": "q04", "split": "dev", "type": "dieu_kien", "filter": null,
+    "question": "Một tỉnh nên chi bao nhiêu phần trăm ngân sách hằng năm cho chuyển đổi số, và trong trường hợp nào có thể chi 2%?",
+    "expected_answer": "Khoảng 1% ngân sách hằng năm; có thể chi 2% nếu muốn đẩy nhanh chuyển đổi số, nhất là những năm đầu cần làm ngay các nền tảng.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 7,
+    "evidence_quote": "Vậy tỉnh hãy chi khoảng 1% ngân sách hàng năm. Nếu muốn đẩy nhanh chuyển đổi số, nhất là những năm đầu này cần làm ngay các nền tảng, thì có thể chi 2%.",
+    "alternatives": []
+  },
+  {
+    "id": "q05", "split": "dev", "type": "dien_dat_lai", "filter": null,
+    "question": "Chuyển đổi số có khiến nhiều người mất việc làm không?",
+    "expected_answer": "Không tạo ra thất nghiệp theo nghĩa chung: các cuộc cách mạng công nghiệp làm mất một số nghề nhưng tạo ra nhiều nghề mới; thất nghiệp tăng chủ yếu do suy thoái kinh tế.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 8,
+    "evidence_quote": "Thất nghiệp tăng chủ yếu là do suy thoái kinh tế. Các cuộc cách mạng công nghiệp mới có làm mất đi một số nghề nhưng lại tạo ra nhiều nghề mới.",
+    "alternatives": []
+  },
+  {
+    "id": "q06", "split": "dev", "type": "truc_tiep", "filter": null,
+    "question": "Bốn công nghệ số tiêu biểu thúc đẩy chuyển đổi số là gì?",
+    "expected_answer": "Trí tuệ nhân tạo, Internet vạn vật, dữ liệu lớn, điện toán đám mây.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 12,
+    "evidence_quote": "Bốn công nghệ số tiêu biểu thúc đẩy chuyển đổi số là trí tuệ nhân tạo, Internet vạn vật, dữ liệu lớn, điện toán đám mây.",
+    "alternatives": []
+  },
+  {
+    "id": "q07", "split": "dev", "type": "dien_dat_lai", "filter": null,
+    "question": "Điện toán đám mây được so sánh với loại hạ tầng quen thuộc nào trong đời sống?",
+    "expected_answer": "Điện lưới.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 13,
+    "evidence_quote": "Một cách nôm na, điện toán đám mây cũng giống như điện lưới.",
+    "alternatives": []
+  },
+  {
+    "id": "q08", "split": "dev", "type": "dieu_kien", "filter": null,
+    "question": "Dịch vụ công trực tuyến mức độ 4 khác mức độ 3 ở điểm nào?",
+    "expected_answer": "Mức độ 4 là mức độ 3 cộng thêm việc cho phép người sử dụng thanh toán lệ phí (nếu có) trực tuyến.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 19,
+    "evidence_quote": "Dịch vụ công trực tuyến mức độ 4: là dịch vụ công trực tuyến mức độ 3 và cho phép người sử dụng thanh toán lệ phí (nếu có) trực tuyến.",
+    "alternatives": []
+  },
+  {
+    "id": "q09", "split": "dev", "type": "filter", "filter": {"article_id": "a3_camnang_btttt"},
+    "filter_context": "Người dùng chọn phạm vi 'Cẩm nang về chuyển đổi số' (Cục Tin học hoá - Bộ TT&TT) trước khi hỏi.",
+    "question": "Chuyển đổi số được định nghĩa như thế nào?",
+    "expected_answer": "Quá trình thay đổi tổng thể và toàn diện của cá nhân, tổ chức về cách sống, cách làm việc và phương thức sản xuất dựa trên các công nghệ số.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 11,
+    "evidence_quote": "Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện của cá nhân, tổ chức về cách sống, cách làm việc và phương thức sản xuất dựa trên các công nghệ số.",
+    "alternatives": []
+  },
+  {
+    "id": "q10", "split": "dev", "type": "filter", "filter": {"article_id": "a2_vietnamnet_qa"},
+    "filter_context": "Người dùng chọn phạm vi bài phỏng vấn Bộ trưởng Nguyễn Mạnh Hùng (VietNamNet) trước khi hỏi.",
+    "question": "Ứng dụng công nghệ thông tin khác chuyển đổi số như thế nào?",
+    "expected_answer": "Ứng dụng CNTT là dùng máy tính, phần mềm để viết báo cáo gửi cấp trên; chuyển đổi số là không làm báo cáo nữa vì dữ liệu đã có trong hệ thống, cấp nào cần thì tự lấy và phân tích.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 6,
+    "evidence_quote": "Ứng dụng CNTT là dùng máy tính và phần mềm để viết báo cáo gửi cấp trên. Chuyển đổi số là không làm báo cáo cấp trên nữa. Dữ liệu các cấp đã có trong hệ thống, cấp nào muốn lấy thông tin gì thì tự vào mà lấy và phân tích.",
+    "alternatives": []
+  },
+  {
+    "id": "q11", "split": "dev", "type": "dien_dat_lai", "filter": null,
+    "question": "Khi năm học 2019-2020 bị gián đoạn vì dịch, tỷ lệ sinh viên chưa sẵn sàng học trực tuyến là bao nhiêu?",
+    "expected_answer": "Trên 76% số sinh viên tham gia khảo sát.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 24,
+    "evidence_quote": "Có tới trên 76% số sinh viên tham gia khảo sát (nhiều ngành và nhiều tỉnh, thành khác nhau) chưa sẵn sàng cho học tập trực tuyến, vì nhiều lý do.",
+    "alternatives": []
+  },
+  {
+    "id": "q12", "split": "dev", "type": "dieu_kien", "filter": null,
+    "question": "Vì sao học sinh khuyết tật có nguy cơ chịu bất bình đẳng số khi giáo dục chuyển đổi số?",
+    "expected_answer": "Do vấn đề ở cả yếu tố đầu vào (sách vở, tài liệu, ngôn ngữ, thiết bị) lẫn quá trình giáo dục (thao tác, giao tiếp với thiết bị, phần mềm, giáo viên).",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 26,
+    "evidence_quote": "Học sinh khuyết tật (khiếm thính, khiếm thị hoặc các khuyết tật vận động cản trở thao tác, điều khiển thiết bị) cũng có nguy cơ lớn phải hứng chịu bất bình đẳng số do những vấn đề liên quan tới các yếu tố đầu vào (sách vở, tài liệu, ngôn ngữ, trang thiết bị…) lẫn quá trình giáo dục (thao tác điều khiển, giao tiếp với thiết bị, phần mềm, giáo viên…).",
+    "alternatives": []
+  },
+  {
+    "id": "q13", "split": "dev", "type": "truc_tiep", "filter": null,
+    "question": "Trong 12 bước chuyển đổi kỹ thuật số, bước đầu tiên là gì?",
+    "expected_answer": "Tập trung vào khách hàng: chuyển từ tập trung vào sản phẩm sang tập trung vào khách hàng.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 29,
+    "evidence_quote": "1. Tập trung vào khách hàng. Sự thay đổi đầu tiên chuyển công ty từ tập trung vào sản phẩm sang tập trung vào khách hàng.",
+    "alternatives": []
+  },
+  {
+    "id": "q14", "split": "dev", "type": "dien_dat_lai", "filter": null,
+    "question": "Trung bình bao nhiêu người tham gia vào các quyết định mua công nghệ của doanh nghiệp?",
+    "expected_answer": "Trung bình 15 người, một nửa làm trong lĩnh vực CNTT.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 30,
+    "evidence_quote": "Trung bình có 15 người, một nửa trong số họ làm việc trong lĩnh vực CNTT, tham gia vào hầu hết các quyết định mua hàng.",
+    "alternatives": []
+  },
+  {
+    "id": "q15", "split": "dev", "type": "truc_tiep", "filter": null,
+    "question": "Quyết định 146 ngày 28/01/2022 của Thủ tướng đặt mục tiêu cụ thể gì cho giáo dục đại học?",
+    "expected_answer": "Hoàn thiện mô hình \"Giáo dục đại học (GDĐH) số\".",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 31,
+    "evidence_quote": "có một mục tiêu cụ thể là hoàn thiện mô hình “Giáo dục đại học (GDĐH) số”.",
+    "alternatives": []
+  },
+  {
+    "id": "q16", "split": "dev", "type": "filter", "filter": {"article_id": "a1_fsi"},
+    "filter_context": "Người dùng chọn phạm vi bài 'Chuyển đổi số là gì? Định nghĩa chuyển đổi số' (theo FSI) trước khi hỏi.",
+    "question": "Chuyển đổi số được định nghĩa như thế nào?",
+    "expected_answer": "Theo FSI (tr.2): quá trình thay đổi từ mô hình truyền thống sang doanh nghiệp số, bằng cách áp dụng công nghệ mới như điện toán đám mây, dữ liệu lớn, Internet vạn vật. Đáp án hợp lệ khác trong cùng bài (tr.4): quá trình thay đổi tổng thể và toàn diện của cá nhân và tổ chức về cách sống, cách làm việc và phương thức sản xuất trên môi trường số với các công nghệ số.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 2,
+    "evidence_quote": "Chuyển đổi số là quá trình thay đổi từ mô hình truyền thống sang doanh nghiệp số, bằng cách áp dụng công nghệ mới như điện toán đám mây (Cloud), dữ liệu lớn (Big data), Internet vạn vật (IOT)",
+    "alternatives": [
+      {"gold_page": 4, "evidence_quote": "Chuyển đổi số (Digital transformation) hiểu chung là quá trình thay đổi tổng thể và toàn diện của cá nhân và tổ chức về cách sống, cách làm việc và phương thức sản xuất trên môi trường số với các công nghệ số."}
+    ]
+  },
+  {
+    "id": "q17", "split": "test", "type": "truc_tiep", "filter": null,
+    "question": "Trong mô hình phát triển năng lực số của DigCompEdu, hai giai đoạn đầu tiên là gì?",
+    "expected_answer": "Người mới tới - Newcomer (A1) và Người khai phá - Explorer (A2).",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 39,
+    "evidence_quote": "Trong 2 giai đoạn đầu, Người mới tới - Newcomer (A1) và Người khai phá - Explorer (A2), các nhà giáo dục làm quen với thông tin mới và",
+    "alternatives": []
+  },
+  {
+    "id": "q18", "split": "test", "type": "dien_dat_lai", "filter": null,
+    "question": "Những đặc điểm nào giúp chuỗi khối bảo đảm an toàn, tin cậy và minh bạch?",
+    "expected_answer": "Mã hóa nên bảo mật; phân tán nên không ai kiểm soát toàn bộ; liên kết nên mọi sửa đổi đều để lại dấu vết, chống chối bỏ.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 13,
+    "evidence_quote": "Vì mã hóa nên bảo mật. Vì phân tán nên không ai có thể kiểm soát toàn bộ. Vì liên kết nên bất cứ sự sửa đổi nào đều để lại dấu vết, chống chối bỏ.",
+    "alternatives": []
+  },
+  {
+    "id": "q19", "split": "test", "type": "dieu_kien", "filter": null,
+    "question": "Với những cái mới trong chuyển đổi số mà chưa có luật pháp quy định thì nên xử lý thế nào?",
+    "expected_answer": "Tập thể cấp ủy, tập thể lãnh đạo quyết định cho làm thí điểm trước, trong một không gian và thời gian hạn chế.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 7,
+    "evidence_quote": "Với những cái mới chưa có luật pháp thì tập thể cấp uỷ, tập thể lãnh đạo quyết định cho làm thí điểm trước, trong một không gian và thời gian hạn chế.",
+    "alternatives": []
+  },
+  {
+    "id": "q20", "split": "test", "type": "filter", "filter": {"article_id": "a4_tiasang"},
+    "filter_context": "Người dùng chọn phạm vi bài 'Chuyển đổi số trong giáo dục: những thách thức và nguy cơ' (Tạp chí Tia sáng) trước khi hỏi.",
+    "question": "Thách thức lớn nhất đối với chuyển đổi số là gì?",
+    "expected_answer": "Làm thế nào để bảo đảm việc học tập, giảng dạy và các hoạt động giáo dục là thực chất.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 26,
+    "evidence_quote": "Điểm thách thức lớn nhất đối với chuyển đổi số có lẽ là làm thế nào để đảm bảo việc học tập và giảng dạy cũng như các hoạt động giáo dục là thực chất.",
+    "alternatives": []
+  },
+  {
+    "id": "q21", "split": "test", "type": "filter", "filter": {"article_id": "a3_camnang_btttt"},
+    "filter_context": "Người dùng chọn phạm vi 'Cẩm nang về chuyển đổi số' (Cục Tin học hoá - Bộ TT&TT) trước khi hỏi.",
+    "question": "Học sinh, sinh viên được thử nghiệm học trực tuyến tối thiểu bao nhiêu phần nội dung chương trình?",
+    "expected_answer": "Tối thiểu 20% nội dung chương trình.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 15,
+    "evidence_quote": "thử nghiệm chương trình đào tạo cho phép học sinh, sinh viên học trực tuyến tối thiểu 20% nội dung chương trình.",
+    "alternatives": []
+  },
+  {
+    "id": "q22", "split": "test", "type": "truc_tiep", "filter": null,
+    "question": "Mô hình cơ sở giáo dục đại học số được hiểu là mô hình gì?",
+    "expected_answer": "Mô hình kết nối giữa các chủ thể và các bên liên quan trong và ngoài khuôn viên nhà trường, trên nền tảng công nghệ số, vì mục đích phục vụ lợi ích người học.",
+    "gold_source_id": "avnuc-cds-2022", "gold_page": 34,
+    "evidence_quote": "Mô hình cơ sở GDĐH số chính là mô hình kết nối giữa các chủ thể và các bên liên quan nói trên trong và ngoài khuôn viên nhà trường, trên nền tảng công nghệ số,vì mục đích tột cùng là phục vụ lợi ích người học.",
+    "alternatives": []
+  }
+]

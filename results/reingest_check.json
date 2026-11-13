@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "1_ingest_v1": {
+      "embedded": 4,
+      "inserted": 4,
+      "updated": 0,
+      "deleted": 0,
+      "rows": 4
+    },
+    "2_reingest_v1_unchanged": {
+      "embedded": 0,
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "rows": 4
+    },
+    "3_ingest_v2_edit1_drop1": {
+      "embedded": 1,
+      "inserted": 0,
+      "updated": 1,
+      "deleted": 1,
+      "rows": 3
+    }
+  },
+  "passed": true
+}

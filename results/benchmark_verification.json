@@ -1,0 +1,344 @@
+{
+  "summary": {
+    "questions": 22,
+    "dev": 16,
+    "test": 6,
+    "filter_questions": 5,
+    "filter_questions_test": 2,
+    "types": {
+      "truc_tiep": 7,
+      "dien_dat_lai": 6,
+      "dieu_kien": 4,
+      "filter": 5
+    },
+    "questions_sha256": "6516e04da19935cc274824a4cbe98ce66ee5be963234d19f6585ace25f24fd05",
+    "verified_at": "2026-11-13T12:17:34+07:00"
+  },
+  "errors": [],
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 2,
+          "article_id": "a1_fsi",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 3,
+          "article_id": "a1_fsi",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 4,
+          "article_id": "a1_fsi",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "dieu_kien",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 7,
+          "article_id": "a2_vietnamnet_qa",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 8,
+          "article_id": "a2_vietnamnet_qa",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 12,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 13,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "dieu_kien",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 19,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "filter",
+      "filter": {
+        "article_id": "a3_camnang_btttt"
+      },
+      "golds": [
+        {
+          "gold_page": 11,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "filter",
+      "filter": {
+        "article_id": "a2_vietnamnet_qa"
+      },
+      "golds": [
+        {
+          "gold_page": 6,
+          "article_id": "a2_vietnamnet_qa",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 24,
+          "article_id": "a4_tiasang",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "dieu_kien",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 26,
+          "article_id": "a4_tiasang",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 29,
+          "article_id": "a5_blake_morgan",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 30,
+          "article_id": "a5_blake_morgan",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 31,
+          "article_id": "a6_gddh_so",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "filter",
+      "filter": {
+        "article_id": "a1_fsi"
+      },
+      "golds": [
+        {
+          "gold_page": 2,
+          "article_id": "a1_fsi",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        },
+        {
+          "gold_page": 4,
+          "article_id": "a1_fsi",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 39,
+          "article_id": "a7_khung_nang_luc_eu",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 13,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "dieu_kien",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 7,
+          "article_id": "a2_vietnamnet_qa",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "filter",
+      "filter": {
+        "article_id": "a4_tiasang"
+      },
+      "golds": [
+        {
+          "gold_page": 26,
+          "article_id": "a4_tiasang",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "filter",
+      "filter": {
+        "article_id": "a3_camnang_btttt"
+      },
+      "golds": [
+        {
+          "gold_page": 15,
+          "article_id": "a3_camnang_btttt",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "truc_tiep",
+      "filter": null,
+      "golds": [
+        {
+          "gold_page": 34,
+          "article_id": "a6_gddh_so",
+          "evidence_found": true,
+          "also_found_on_pages": []
+        }
+      ]
+    }
+  ]
+}

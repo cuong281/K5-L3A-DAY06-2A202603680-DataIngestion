@@ -1,0 +1,176 @@
+{
+  "split": "dev",
+  "run_started": "2026-11-13T12:24:33+07:00",
+  "run_finished": "2026-11-13T12:24:48+07:00",
+  "questions_sha256": "6516e04da19935cc274824a4cbe98ce66ee5be963234d19f6585ace25f24fd05",
+  "pdf_sha256": "817038a27b0e234581c97c3eeea32c96a83190d1157697289f57fc58dc77cacb",
+  "model": {
+    "name": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimensions": 1024,
+    "device": "cpu",
+    "normalize": true,
+    "query_instruction": null,
+    "load_seconds": 10.8
+  },
+  "store": {
+    "backend": "PostgreSQL + pgvector",
+    "table": "day6_chunks",
+    "metric": "cosine (<=>)",
+    "search": "exact (no ANN index)",
+    "top_k": 3
+  },
+  "cost_usd": 0,
+  "environment": {
+    "python": "3.12.10",
+    "os": "Windows-11-10.0.26300-SP0",
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "packages": {
+      "torch": "2.15.0+cpu",
+      "sentence-transformers": "6.3.0",
+      "transformers": "5.22.2",
+      "pymupdf": "2.1",
+      "psycopg": "3.3.8"
+    },
+    "database": {
+      "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector": "0.8.7"
+    }
+  },
+  "indexes": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 1000
+    }
+  },
+  "strategies": {
+    "A": {
+      "index": "A",
+      "use_filter": false,
+      "description": "fixed-size 500/50, không lọc"
+    },
+    "B": {
+      "index": "B",
+      "use_filter": false,
+      "description": "theo đoạn/heading <= 1000, không lọc"
+    },
+    "C": {
+      "index": "B",
+      "use_filter": true,
+      "description": "index của B + lọc article_id khi câu hỏi có filter"
+    }
+  },
+  "chunk_stats": {
+    "A": {
+      "chunks": 261,
+      "chars_total": 118775,
+      "chars_min": 54,
+      "chars_median": 500,
+      "chars_mean": 455.1,
+      "chars_max": 500,
+      "tokens_total": 30650,
+      "tokens_max": 197,
+      "pages_covered": 45
+    },
+    "B": {
+      "chunks": 185,
+      "chars_total": 107835,
+      "chars_min": 35,
+      "chars_median": 612,
+      "chars_mean": 582.9,
+      "chars_max": 998,
+      "tokens_total": 27667,
+      "tokens_max": 316,
+      "pages_covered": 45
+    }
+  },
+  "ingest": [
+    {
+      "index": "A",
+      "chunks_current": 261,
+      "embedded_now": 0,
+      "embed_seconds": 0.0,
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "rows_after": 261,
+      "reingest_check": {
+        "pending_after_ingest": 0,
+        "deleted_on_rerun": 0,
+        "rows_after_rerun": 261,
+        "no_duplicates": true
+      }
+    },
+    {
+      "index": "B",
+      "chunks_current": 185,
+      "embedded_now": 0,
+      "embed_seconds": 0.0,
+      "inserted": 0,
+      "updated": 0,
+      "deleted": 0,
+      "rows_after": 185,
+      "reingest_check": {
+        "pending_after_ingest": 0,
+        "deleted_on_rerun": 0,
+        "rows_after_rerun": 185,
+        "no_duplicates": true
+      }
+    }
+  ],
+  "summary": {
+    "A": {
+      "dev": {
+        "N": 16,
+        "hit@1": 9,
+        "hit@1_rate": 0.5625,
+        "hit@3": 12,
+        "hit@3_rate": 0.75,
+        "evidence_split_cases": 3,
+        "filter_questions": 3,
+        "filter_compliant": 0,
+        "missed_ids": [
+          "q02",
+          "q10",
+          "q12",
+          "q14"
+        ]
+      }
+    },
+    "B": {
+      "dev": {
+        "N": 16,
+        "hit@1": 13,
+        "hit@1_rate": 0.8125,
+        "hit@3": 15,
+        "hit@3_rate": 0.9375,
+        "evidence_split_cases": 0,
+        "filter_questions": 3,
+        "filter_compliant": 0,
+        "missed_ids": [
+          "q13"
+        ]
+      }
+    },
+    "C": {
+      "dev": {
+        "N": 16,
+        "hit@1": 15,
+        "hit@1_rate": 0.9375,
+        "hit@3": 15,
+        "hit@3_rate": 0.9375,
+        "evidence_split_cases": 0,
+        "filter_questions": 3,
+        "filter_compliant": 3,
+        "missed_ids": [
+          "q13"
+        ]
+      }
+    }
+  }
+}

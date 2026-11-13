@@ -1,0 +1,4 @@
+# 2026-11-13T11:53:04+07:00 | docker compose -p day6_student_starter up -d --wait; python scripts/check_setup.py
+day6_student_starter-postgres-1 pgvector/pgvector:0.8.7-pg16 Up 18 seconds (healthy)
+Database: day6_lab | PostgreSQL: 16.16 (Debian 16.16-1.pgdg12+1) | pgvector: 0.8.7
+Setup OK. Pipeline functions still need to be implemented.

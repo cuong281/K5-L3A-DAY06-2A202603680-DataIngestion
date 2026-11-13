@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Corpus PDF is "lưu hành nội bộ": keep local, commit only data/manifest.json
+*.pdf

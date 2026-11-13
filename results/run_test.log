@@ -1,0 +1,6 @@
+[test] questions=6 model=BAAI/bge-m3@5617a9f6
+  index A: chunks=261 embedded_now=0 (0.0s) ins/upd/del=0/0/0 rows=261 no_duplicates=True
+  index B: chunks=185 embedded_now=0 (0.0s) ins/upd/del=0/0/0 rows=185 no_duplicates=True
+  A: Hit@1 2/6  Hit@3 4/6  split=1 filter 0/2  missed=['q17', 'q22']
+  B: Hit@1 3/6  Hit@3 4/6  split=0 filter 0/2  missed=['q20', 'q21']
+  C: Hit@1 3/6  Hit@3 6/6  split=0 filter 2/2  missed=[]

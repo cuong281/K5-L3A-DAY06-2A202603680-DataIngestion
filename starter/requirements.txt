@@ -1,4 +1,10 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup and PDF parsing.
 psycopg[binary]==3.3.8
-pypdf>=5,<7
+pypdf>=5,<7          # tested first; fragments ~0.8% of Vietnamese tokens, not used by the pipeline
+pymupdf==2.1         # PDF text extraction used by src/ingestion.py
 python-dotenv>=1,<2
+
+# Embedding: BAAI/bge-m3 (dense, 1024 dims) via sentence-transformers, CPU.
+# Install CPU PyTorch FIRST from the PyTorch index (version used: 2.15.0+cpu):
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers==6.3.0

@@ -1,0 +1,688 @@
+{
+  "source_id": "avnuc-cds-2022",
+  "title": "Khái niệm chuyển đổi số và chuyển đổi số trong giáo dục đại học (Tài liệu tham khảo)",
+  "publisher": "Hiệp hội các trường Đại học, Cao đẳng Việt Nam (AVNUC)",
+  "published_date": "2022-07-28",
+  "source_path_or_url": "https://avnuc.vn/wp-content/uploads/2022/08/Khai-niem-CDS-va-CDS-trong-GD-DT.pdf",
+  "local_path": "starter/data/Khai-niem-CDS-va-CDS-trong-GD-DT.pdf",
+  "sha256": "817038a27b0e234581c97c3eeea32c96a83190d1157697289f57fc58dc77cacb",
+  "license_or_permission": "Không có giấy phép mở. Bìa ghi 'TÀI LIỆU THAM KHẢO (lưu hành nội bộ)'; tài liệu tổng hợp bài viết của nhiều bên thứ ba. Tải công khai từ avnuc.vn và chỉ xử lý cục bộ cho mục đích học tập. KHÔNG phân phối lại PDF: file bị .gitignore. Repo chứa manifest, URL, SHA-256, evidence trong benchmark và toàn văn các chunk được truy xuất/chấm trong results/ (traces, audit) để người chấm kiểm chứng, khoảng 43% nội dung chữ của tài liệu; đây là quyết định của tác giả, xem báo cáo.",
+  "accessed_at": "2026-11-13",
+  "snapshot_or_version": "Bản PDF tải từ URL trên; xác minh bằng sha256",
+  "language": "vi",
+  "extractor": "PyMuPDF 2.1 (text layer, không OCR)",
+  "physical_pages": 45,
+  "counting_rule": "Một trang vật lý được tính là trang nội dung khi: (1) không phải trang bìa; (2) phần sau tiêu đề tài liệu tham khảo chiếm < 50% số ký tự của trang; (3) có >= 1500 ký tự không phải khoảng trắng sau chuẩn hóa (NFC, gộp khoảng trắng, bỏ số trang). Trang không đạt vẫn được ingest nhưng không tính vào ngưỡng 30 trang. Nội dung nằm trong ảnh (bảng/hình) không trích xuất được và không được tính.",
+  "counted_page_count": 33,
+  "counted_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    26,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    43,
+    44
+  ],
+  "chars_nonspace_counted_pages": 72582,
+  "chars_nonspace_all_pages": 84500,
+  "filter_field": {
+    "name": "article_id",
+    "type": "string (categorical)",
+    "value_source": "tiêu đề + dòng nguồn/tác giả in ở trang đầu mỗi bài; marker được kiểm tra tự động",
+    "values": [
+      {
+        "article_id": "cover",
+        "start_page": 1,
+        "end_page": 1,
+        "title": "Bìa",
+        "source": "Hiệp hội các trường Đại học, Cao đẳng Việt Nam",
+        "marker": "lưu hành nội bộ"
+      },
+      {
+        "article_id": "a1_fsi",
+        "start_page": 2,
+        "end_page": 5,
+        "title": "Chuyển đổi số là gì? Định nghĩa chuyển đổi số",
+        "source": "Theo FSI; Tháng Mười Hai 26, 2020",
+        "marker": "Theo FSI"
+      },
+      {
+        "article_id": "a2_vietnamnet_qa",
+        "start_page": 6,
+        "end_page": 10,
+        "title": "Bộ trưởng Bộ TT&TT Nguyễn Mạnh Hùng giải đáp những câu hỏi then chốt về chuyển đổi số",
+        "source": "nguồn VietNamNet",
+        "marker": "nguồn VietNamNet"
+      },
+      {
+        "article_id": "a3_camnang_btttt",
+        "start_page": 11,
+        "end_page": 20,
+        "title": "Cẩm nang về chuyển đổi số",
+        "source": "Nguồn: Cục tin học hoá - Bộ Thông tin và Truyền thông; Oct 2, 2020",
+        "marker": "Cục tin học hoá"
+      },
+      {
+        "article_id": "a4_tiasang",
+        "start_page": 21,
+        "end_page": 27,
+        "title": "Chuyển đổi số trong giáo dục: những thách thức và nguy cơ",
+        "source": "Nguồn: Tạp chí Tia sáng - Đỗ Thị Ngọc Quyên",
+        "marker": "Tạp chí Tia sáng"
+      },
+      {
+        "article_id": "a5_blake_morgan",
+        "start_page": 28,
+        "end_page": 30,
+        "title": "12 bước để chuyển đổi số thành công",
+        "source": "Blake Morgan (khách mời blogger)",
+        "marker": "Blake Morgan"
+      },
+      {
+        "article_id": "a6_gddh_so",
+        "start_page": 31,
+        "end_page": 35,
+        "title": "Về mô hình giáo dục đại học số",
+        "source": "TSKH. Phạm Đỗ Nhật Tiến",
+        "marker": "Phạm Đỗ Nhật Tiến"
+      },
+      {
+        "article_id": "a7_khung_nang_luc_eu",
+        "start_page": 36,
+        "end_page": 45,
+        "title": "Các khung năng lực số của Liên minh châu Âu và vài gợi ý cho Việt Nam để chuyển đổi số thành công",
+        "source": "Lê Trung Nghĩa, Hiệp hội các trường ĐH, CĐ Việt Nam",
+        "marker": "Lê Trung Nghĩa"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page_id": "avnuc-cds-2022:p01",
+      "page": 1,
+      "article_id": "cover",
+      "chars_total": 152,
+      "chars_nonspace": 115,
+      "counted": false,
+      "exclusion_reason": "trang bìa",
+      "image_count": 3,
+      "empty": false,
+      "warnings": [
+        "3 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p02",
+      "page": 2,
+      "article_id": "a1_fsi",
+      "chars_total": 2764,
+      "chars_nonspace": 2171,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p03",
+      "page": 3,
+      "article_id": "a1_fsi",
+      "chars_total": 2331,
+      "chars_nonspace": 1839,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p04",
+      "page": 4,
+      "article_id": "a1_fsi",
+      "chars_total": 2581,
+      "chars_nonspace": 2009,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p05",
+      "page": 5,
+      "article_id": "a1_fsi",
+      "chars_total": 2066,
+      "chars_nonspace": 1595,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p06",
+      "page": 6,
+      "article_id": "a2_vietnamnet_qa",
+      "chars_total": 3143,
+      "chars_nonspace": 2456,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p07",
+      "page": 7,
+      "article_id": "a2_vietnamnet_qa",
+      "chars_total": 3218,
+      "chars_nonspace": 2497,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p08",
+      "page": 8,
+      "article_id": "a2_vietnamnet_qa",
+      "chars_total": 3316,
+      "chars_nonspace": 2563,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p09",
+      "page": 9,
+      "article_id": "a2_vietnamnet_qa",
+      "chars_total": 3253,
+      "chars_nonspace": 2529,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p10",
+      "page": 10,
+      "article_id": "a2_vietnamnet_qa",
+      "chars_total": 973,
+      "chars_nonspace": 755,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p11",
+      "page": 11,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 1980,
+      "chars_nonspace": 1536,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p12",
+      "page": 12,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 3079,
+      "chars_nonspace": 2386,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p13",
+      "page": 13,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 2865,
+      "chars_nonspace": 2221,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p14",
+      "page": 14,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 2874,
+      "chars_nonspace": 2235,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p15",
+      "page": 15,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 3026,
+      "chars_nonspace": 2356,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p16",
+      "page": 16,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 3130,
+      "chars_nonspace": 2452,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p17",
+      "page": 17,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 2546,
+      "chars_nonspace": 1990,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p18",
+      "page": 18,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 3015,
+      "chars_nonspace": 2327,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p19",
+      "page": 19,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 2617,
+      "chars_nonspace": 2028,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p20",
+      "page": 20,
+      "article_id": "a3_camnang_btttt",
+      "chars_total": 830,
+      "chars_nonspace": 650,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p21",
+      "page": 21,
+      "article_id": "a4_tiasang",
+      "chars_total": 2644,
+      "chars_nonspace": 2065,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p22",
+      "page": 22,
+      "article_id": "a4_tiasang",
+      "chars_total": 3271,
+      "chars_nonspace": 2552,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p23",
+      "page": 23,
+      "article_id": "a4_tiasang",
+      "chars_total": 3310,
+      "chars_nonspace": 2581,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p24",
+      "page": 24,
+      "article_id": "a4_tiasang",
+      "chars_total": 2552,
+      "chars_nonspace": 1987,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p25",
+      "page": 25,
+      "article_id": "a4_tiasang",
+      "chars_total": 1370,
+      "chars_nonspace": 1065,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p26",
+      "page": 26,
+      "article_id": "a4_tiasang",
+      "chars_total": 3373,
+      "chars_nonspace": 2632,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p27",
+      "page": 27,
+      "article_id": "a4_tiasang",
+      "chars_total": 1003,
+      "chars_nonspace": 798,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p28",
+      "page": 28,
+      "article_id": "a5_blake_morgan",
+      "chars_total": 1860,
+      "chars_nonspace": 1444,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p29",
+      "page": 29,
+      "article_id": "a5_blake_morgan",
+      "chars_total": 752,
+      "chars_nonspace": 579,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p30",
+      "page": 30,
+      "article_id": "a5_blake_morgan",
+      "chars_total": 2979,
+      "chars_nonspace": 2308,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p31",
+      "page": 31,
+      "article_id": "a6_gddh_so",
+      "chars_total": 2833,
+      "chars_nonspace": 2181,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p32",
+      "page": 32,
+      "article_id": "a6_gddh_so",
+      "chars_total": 3197,
+      "chars_nonspace": 2488,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p33",
+      "page": 33,
+      "article_id": "a6_gddh_so",
+      "chars_total": 3145,
+      "chars_nonspace": 2450,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p34",
+      "page": 34,
+      "article_id": "a6_gddh_so",
+      "chars_total": 3126,
+      "chars_nonspace": 2423,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p35",
+      "page": 35,
+      "article_id": "a6_gddh_so",
+      "chars_total": 1128,
+      "chars_nonspace": 906,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p36",
+      "page": 36,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 2850,
+      "chars_nonspace": 2207,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p37",
+      "page": 37,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 2121,
+      "chars_nonspace": 1642,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p38",
+      "page": 38,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 2084,
+      "chars_nonspace": 1626,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p39",
+      "page": 39,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 1992,
+      "chars_nonspace": 1546,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p40",
+      "page": 40,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 1886,
+      "chars_nonspace": 1470,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p41",
+      "page": 41,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 1346,
+      "chars_nonspace": 1051,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 1,
+      "empty": false,
+      "warnings": [
+        "1 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p42",
+      "page": 42,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 1230,
+      "chars_nonspace": 976,
+      "counted": false,
+      "exclusion_reason": "dưới 1500 ký tự nội dung",
+      "image_count": 2,
+      "empty": false,
+      "warnings": [
+        "2 embedded image(s); any text inside them is not extracted"
+      ]
+    },
+    {
+      "page_id": "avnuc-cds-2022:p43",
+      "page": 43,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 2842,
+      "chars_nonspace": 2208,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p44",
+      "page": 44,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 3208,
+      "chars_nonspace": 2496,
+      "counted": true,
+      "exclusion_reason": null,
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    },
+    {
+      "page_id": "avnuc-cds-2022:p45",
+      "page": 45,
+      "article_id": "a7_khung_nang_luc_eu",
+      "chars_total": 2385,
+      "chars_nonspace": 2109,
+      "counted": false,
+      "exclusion_reason": "chủ yếu là tài liệu tham khảo",
+      "image_count": 0,
+      "empty": false,
+      "warnings": []
+    }
+  ],
+  "validation_errors": []
+}
